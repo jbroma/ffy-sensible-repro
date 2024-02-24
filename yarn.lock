@@ -299,11 +299,6 @@ __metadata:
 "ffy-sensible-repro@workspace:.":
   version: 0.0.0-use.local
   resolution: "ffy-sensible-repro@workspace:."
-  dependencies:
-    "@fastify/sensible": "npm:^5.5.0"
-    "@types/node": "npm:^20.11.20"
-    fastify: "npm:^4.26.1"
-    typescript: "npm:^5.3.3"
   languageName: unknown
   linkType: soft
 
@@ -603,6 +598,17 @@ __metadata:
   checksum: 10c0/fbfe717094ace0aa8d6332d7ef5ce727259815bd8d8815700853f4faf23aacbd7192522f0dc5af6df52ef4fa85a355ebd2f5d39f554bd028200d6cf481ab9b53
   languageName: node
   linkType: hard
+
+"server@workspace:packages/server":
+  version: 0.0.0-use.local
+  resolution: "server@workspace:packages/server"
+  dependencies:
+    "@fastify/sensible": "npm:^5.5.0"
+    "@types/node": "npm:^20.11.20"
+    fastify: "npm:^4.26.1"
+    typescript: "npm:^5.3.3"
+  languageName: unknown
+  linkType: soft
 
 "set-cookie-parser@npm:^2.4.1":
   version: 2.6.0

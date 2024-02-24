@@ -1,8 +1,9 @@
 // Require the framework and instantiate it
 import fastify = require("fastify");
+import sensbile = require("@fastify/sensible");
 
 const instance = fastify({ logger: true });
-instance.register(require("@fastify/sensible"));
+instance.register(sensbile);
 // Declare a route
 instance.get("/", function handler(request, reply) {
   reply.notFound();
